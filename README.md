@@ -18,6 +18,6 @@ At the moment I cannot get the program to automatially reload the shell so pleas
 
 ```source ~/.bashrc```
 
-After every command
+after every command
 
 The program has been completely written by myself and I would appreciate that if you like the program to leave a star!
