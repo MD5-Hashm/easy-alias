@@ -13,3 +13,9 @@ then reload the shell with:
 
 # Usage
 ``` $ al <alias>="<command>"  ```
+
+At the moment I cannot get the program to automatially reload the shell so please manually do so with:
+
+```source ~/.bashrc```
+
+After every command
