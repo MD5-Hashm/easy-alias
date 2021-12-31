@@ -15,4 +15,4 @@ except:
 try:
     os.system("source ~/.bashrc")
 except Exception:
-    print("Warning: Failed to reload ~/.bashrc please relload manually with 'source ~/.bashrc'")
+    print("Warning: Failed to reload ~/.bashrc please reload manually with 'source ~/.bashrc'")
