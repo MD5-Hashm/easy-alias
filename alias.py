@@ -5,15 +5,14 @@ try:
 except:
     print("Usage: python3 alias.py <alias>")
     sys.exit(1)
-
-os.system(f"alias {alias}")
-
+alias = alias.replace("'", "").replace('"', "")
+alias = '"' + alias + '"'
+os.system(f"alias '{alias}'")
 try:
-    os.system(f"echo alias {alias} >> ~/.bashrc")
+    os.system(f"echo alias '{alias}' >> ~/.bashrc")
 except:
     print("Error: Make sure you have 'echo' installed")
-
 try:
     os.system("source ~./bashrc")
-except:
+except Exception:
     print("Warning: Failed to reload ~/.bashrc please relload manually with 'source ~/.bashrc'")
