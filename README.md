@@ -7,5 +7,9 @@ You dont need any python requirments but setting an alias (Easily don't worry) i
 
 ``` $ echo al alias="python3 ~/<Path-to-program>" >> ~/.bashrc```
 
+then reload the shell with:
+
+```source ~/.bashrc```
+
 # Usage
 ``` $ al <alias>="<command>"  ```
