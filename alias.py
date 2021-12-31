@@ -13,6 +13,6 @@ try:
 except:
     print("Error: Make sure you have 'echo' installed")
 try:
-    os.system("source ~./bashrc")
+    os.system("source ~/.bashrc")
 except Exception:
     print("Warning: Failed to reload ~/.bashrc please relload manually with 'source ~/.bashrc'")
