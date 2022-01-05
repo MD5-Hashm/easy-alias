@@ -12,7 +12,8 @@ try:
     os.system(f"echo alias '{alias}' >> ~/.bashrc")
 except:
     print("Error: Make sure you have 'echo' installed")
-try:
-    os.system("source ~/.bashrc")
-except Exception:
-    print("Warning: Failed to reload ~/.bashrc please reload manually with 'source ~/.bashrc'")
+#try:
+#    os.system("source ~/.bashrc")
+#except Exception:
+#    print("Warning: Failed to reload ~/.bashrc please reload manually with 'source ~/.bashrc'")
+print("Warning: Failed to reload ~/.bashrc please reload manually with 'source ~/.bashrc'")
